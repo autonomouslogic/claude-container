@@ -1,7 +1,7 @@
 .PHONY: load-scripts docker
 
 load-scripts:
-	wget -qO ext/install.sh https://raw.githubusercontent.com/anthropics/devcontainer-features/refs/heads/main/src/claude-code/install.sh
+	wget -qO ext/install.sh https://claude.ai/install.sh
 	chmod a+x ext/install.sh
 
 docker:

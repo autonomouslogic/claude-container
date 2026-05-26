@@ -2,10 +2,10 @@
 Run Claude Code in an isolated Docker container.
 
 The main goal of this project is to provide a way to run Claude Code in a way that is as close as possible to
-running it directly, but while still contains it inside a Docker container.
+running it directly, but still containing it and all executions inside a Docker container.
 
-This is based on [base-image](https://github.com/autonomouslogic/base-image) which has a number of tools pre-installed.
-That image is further based on Containerbase, which is based on Ubuntu.
+This is based on [base-image](https://github.com/autonomouslogic/base-image) which has a number of pre-installed tools.
+That image is further based on [Containerbase](https://github.com/containerbase), which is based on Ubuntu.
 
 ## Usage
 Copy the `claude` executable file into a path directory accessible by your shell, such as `~/.local/bin`.
@@ -26,3 +26,10 @@ There are a number of limitations inherent in running inside a Docker container:
 Code in _this repo_ is licensed under MIT-0.
 
 Claude Code itself, as well as code in the `ext` directory, is owned by Anthropic and is licensed under different terms.
+
+## Resources
+Various resources used to set this up.
+
+* https://code.claude.com/docs/en/overview
+* https://code.claude.com/docs/en/devcontainer
+  * https://github.com/anthropics/devcontainer-features 

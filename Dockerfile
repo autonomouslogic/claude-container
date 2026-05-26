@@ -1,9 +1,9 @@
 FROM autonomouslogic/base-image:1.1.1
 
-RUN mkdir /claude
-COPY ext/install.sh /claude/
-#RUN cd /claude && ./install.sh
-RUN npm install -g @anthropic-ai/claude-code
+COPY ext/install.sh /claude-container/
+RUN ls -l /claude-container/
+ENV PATH="/root/.local/bin:$PATH"
+RUN cd /claude-container && ./install.sh
 
 WORKDIR /
-ENTRYPOINT bash
+ENTRYPOINT claude
