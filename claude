@@ -1,2 +1,9 @@
 #!/bin/bash -e
 
+set -x
+
+DIR="$(pwd)"
+
+docker run -it --rm \
+  --user $(id -u):$(id -g) \
+  autonomouslogic/claude-container:latest

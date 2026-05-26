@@ -20,7 +20,11 @@ There are a number of limitations inherent in running inside a Docker container:
 * Only the current directory is accessible
 * Only tools installed on the Docker image are available, see [base-image](https://github.com/autonomouslogic/base-image)
 
-## Motivation
+## Contributing
+Contributions are very welcome.
+This project was deliberately made as simple as possible to address the core need without changing the workflow.
+If something doesn't work on your system, feel free to submit a PR.
+If you want more development tools installed, submit a PR to [base-image](https://github.com/autonomouslogic/base-image).
 
 ## License
 Code in _this repo_ is licensed under MIT-0.
@@ -33,3 +37,8 @@ Various resources used to set this up.
 * https://code.claude.com/docs/en/overview
 * https://code.claude.com/docs/en/devcontainer
   * https://github.com/anthropics/devcontainer-features 
+* https://github.com/anthropics/claude-code/blob/main/.devcontainer/Dockerfile
+
+## Other Projects
+* [Claudebox](https://github.com/RchGrav/claudebox) - more complex with its own workflow
+* https://github.com/gendosu/claude-code-docker - similar, but Node-specific

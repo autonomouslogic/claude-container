@@ -5,5 +5,11 @@ RUN ls -l /claude-container/
 ENV PATH="/root/.local/bin:$PATH"
 RUN cd /claude-container && ./install.sh
 
+RUN cp -L /root/.local/bin/claude /usr/local/bin/claude && \
+    chmod 755 /usr/local/bin/claude && \
+    rm -rf /root/.local/share/claude /root/.local/bin/claude
+RUN /usr/local/bin/claude --version
+COPY entrypoint.sh /entrypoint.sh
+
 WORKDIR /
-ENTRYPOINT claude
+ENTRYPOINT /entrypoint.sh
