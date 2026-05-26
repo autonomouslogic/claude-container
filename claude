@@ -1,9 +1,10 @@
 #!/bin/bash -e
-
 set -x
-
 DIR="$(pwd)"
 
-docker run -it --rm \
-  --user $(id -u):$(id -g) \
-  autonomouslogic/claude-container:latest
+#  --user $(id -u):$(id -g) \
+docker run --rm -it \
+  -w "$DIR" \
+  -v "$DIR:$DIR" \
+  autonomouslogic/claude-container:latest \
+  "$@"
