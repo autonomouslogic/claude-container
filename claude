@@ -4,7 +4,9 @@ DIR="$(pwd)"
 
 #  --user $(id -u):$(id -g) \
 docker run --rm -it \
+  -e "CLAUDE_USER_ID=$(id -u)" \
   -w "$DIR" \
   -v "$DIR:$DIR" \
+  -v "$HOME/.claude:/home/appuser/.claude" \
   autonomouslogic/claude-container:latest \
   "$@"

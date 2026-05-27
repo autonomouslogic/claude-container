@@ -1,5 +1,5 @@
 # Extra Scripts
-Scripts in this directory are loaded from external repos.
+Scripts in this directory are loaded from external sources.
 
 ## License
 Refer to their respective sources for licenses of these scripts, as they may not be compatible with the license

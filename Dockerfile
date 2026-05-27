@@ -1,5 +1,7 @@
 FROM autonomouslogic/base-image:1.1.1
 
+USER root
+
 COPY ext/install.sh /claude-container/
 RUN ls -l /claude-container/
 ENV PATH="/root/.local/bin:$PATH"
@@ -17,5 +19,8 @@ RUN chmod 755 /entrypoint.sh
 #    chown -R appuser:appuser /home/appuser
 #USER appuser
 
-WORKDIR /
+#WORKDIR /
 ENTRYPOINT ["/entrypoint.sh"]
+#ENTRYPOINT ["claude"]
+#ENTRYPOINT ["pwd"]
+#ENTRYPOINT ["ls", "-al", "/home/ubuntu"]
