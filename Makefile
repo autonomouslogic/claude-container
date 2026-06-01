@@ -10,6 +10,3 @@ docker:
 		--tag autonomouslogic/claude-container:latest \
 		-f Dockerfile \
 		.
-
-run: docker
-	docker run -it autonomouslogic/claude-container:latest
