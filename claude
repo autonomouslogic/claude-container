@@ -1,12 +1,11 @@
 #!/bin/bash -e
-set -x
+
 DIR="$(pwd)"
 
-#  --user $(id -u):$(id -g) \
 docker run --rm -it \
-  -e "CLAUDE_USER_ID=$(id -u)" \
   -w "$DIR" \
   -v "$DIR:$DIR" \
-  -v "$HOME/.claude:/home/appuser/.claude" \
+  -v "$HOME/.claude:/root/.claude" \
+  -v "$HOME/.claude.json:/root/.claude.json" \
   autonomouslogic/claude-container:latest \
   "$@"
