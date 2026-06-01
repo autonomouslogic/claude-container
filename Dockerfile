@@ -1,4 +1,4 @@
-FROM autonomouslogic/base-image:1.1.1
+FROM autonomouslogic/base-image:1.2.0
 
 USER root
 
