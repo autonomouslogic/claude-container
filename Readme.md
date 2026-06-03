@@ -3,6 +3,7 @@ Run Claude Code in an isolated Docker container.
 
 The main goal of this project is to provide a way to run Claude Code in a way that is as close as possible to
 running it directly, but still containing it and all executions inside a Docker container.
+See [this blog post](https://kennethjorgensen.com/blog/2026/isolating-claude-in-docker/) for more.
 
 This is based on [base-image](https://github.com/autonomouslogic/base-image) which has a number of pre-installed tools.
 That image is further based on [Containerbase](https://github.com/containerbase), which is based on Ubuntu.
