@@ -1,4 +1,4 @@
-FROM autonomouslogic/base-image:1.2.0
+FROM autonomouslogic/base-image:1.2.3
 
 COPY ext/install.sh /claude-container/
 RUN ls -l /claude-container/
