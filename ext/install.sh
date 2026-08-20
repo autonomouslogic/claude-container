@@ -59,7 +59,7 @@ fi
 download_file() {
     local url="$1"
     local output="$2"
-    
+
     if [ "$DOWNLOADER" = "curl" ]; then
         if [ -n "$output" ]; then
             curl -fsSL -o "$output" "$url"
@@ -81,16 +81,16 @@ download_file() {
 get_checksum_from_manifest() {
     local json="$1"
     local platform="$2"
-    
+
     # Normalize JSON to single line and extract checksum
     json=$(echo "$json" | tr -d '\n\r\t' | sed 's/ \+/ /g')
-    
+
     # Extract checksum for platform using bash regex
     if [[ $json =~ \"$platform\"[^}]*\"checksum\"[[:space:]]*:[[:space:]]*\"([a-f0-9]{64})\" ]]; then
         echo "${BASH_REMATCH[1]}"
         return 0
     fi
-    
+
     return 1
 }
 
@@ -215,3 +215,5 @@ fi
 echo ""
 echo "✅ Installation complete!"
 echo ""
+
+

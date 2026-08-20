@@ -1,0 +1,27 @@
+name: Update Install Script
+
+on:
+  schedule:
+    - cron: '15 14 * * 2'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update install script
+        run: make load-scripts
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ext/install.sh
+          if ! git diff --cached --quiet; then
+            git commit -m "fix(deps): Updated Claude Code install script"
+            git push
+          fi
