@@ -1,5 +1,12 @@
 Claude Container Changelog
 
+## [1.0.2](https://github.com/autonomouslogic/claude-container/compare/1.0.1...1.0.2) (2026-08-21)
+
+
+### Dependency Updates
+
+* **deps:** update actions/checkout action to v7 ([#7](https://github.com/autonomouslogic/claude-container/issues/7)) ([43b534e](https://github.com/autonomouslogic/claude-container/commit/43b534ec7ae9afc990bf41dfd25923ecaba5c4a5))
+
 ## [1.0.1](https://github.com/autonomouslogic/claude-container/compare/1.0.0...1.0.1) (2026-08-20)
 
 
