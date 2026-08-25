@@ -1,5 +1,17 @@
 Claude Container Changelog
 
+## [1.0.3](https://github.com/autonomouslogic/claude-container/compare/1.0.2...1.0.3) (2026-08-25)
+
+
+### Bug Fixes
+
+* **deps:** Updated Claude Code install script ([d4e0fb6](https://github.com/autonomouslogic/claude-container/commit/d4e0fb6ae7a0a1bfb37f14e1d7854c40ac55fc1d))
+
+
+### Dependency Updates
+
+* **deps:** update autonomouslogic/base-image docker tag to v1.3.1 ([#8](https://github.com/autonomouslogic/claude-container/issues/8)) ([5af87fc](https://github.com/autonomouslogic/claude-container/commit/5af87fc5af12465ab87c9143dfc2bd2d6a27bcaf))
+
 ## [1.0.2](https://github.com/autonomouslogic/claude-container/compare/1.0.1...1.0.2) (2026-08-21)
 
 
