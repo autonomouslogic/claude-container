@@ -1,8 +1,11 @@
 FROM autonomouslogic/base-image:1.3.2
 
 COPY ext/install.sh /claude-container/
-RUN ls -l /claude-container/
+
 ENV PATH="/root/.local/bin:$PATH"
-RUN cd /claude-container && ./install.sh
+
+# renovate: datasource=npm depName=@anthropic-ai/claude-code
+ENV CLAUDE_CODE_VERSION=2.1.159
+RUN cd /claude-container && ./install.sh ${CLAUDE_CODE_VERSION}
 
 ENTRYPOINT ["claude"]

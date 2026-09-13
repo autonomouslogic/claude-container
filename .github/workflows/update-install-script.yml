@@ -2,7 +2,7 @@ name: Update Install Script
 
 on:
   schedule:
-    - cron: '15 14 * * 2'
+    - cron: '15 14 * * *'
   workflow_dispatch:
 
 jobs:
