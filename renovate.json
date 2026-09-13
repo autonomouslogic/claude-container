@@ -6,7 +6,8 @@
   "packageRules": [
     {
       "matchDepNames": ["@anthropic-ai/claude-code"],
-      "schedule": ["at any time"]
+      "schedule": ["at any time"],
+      "groupName": "claude-code"
     }
   ],
   "customManagers": [
