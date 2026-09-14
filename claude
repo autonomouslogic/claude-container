@@ -7,5 +7,6 @@ docker run --rm -it \
   -v "$DIR:$DIR" \
   -v "$HOME/.claude:/root/.claude" \
   -v "$HOME/.claude.json:/root/.claude.json" \
+  --pull always \
   autonomouslogic/claude-container:latest \
   "$@"
