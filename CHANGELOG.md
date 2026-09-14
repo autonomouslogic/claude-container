@@ -1,5 +1,34 @@
 Claude Container Changelog
 
+## [1.0.5](https://github.com/autonomouslogic/claude-container/compare/1.0.4...1.0.5) (2026-09-14)
+
+
+### Bug Fixes
+
+* Always pull ([2adedf2](https://github.com/autonomouslogic/claude-container/commit/2adedf24fa6d4b3aa0f5270325673d1ce4d17243))
+
+
+### Documentation
+
+* Better installation instructions ([579d93e](https://github.com/autonomouslogic/claude-container/commit/579d93e3c1d61ee1046eb8cd66167d20d031d9be))
+
+
+### Dependency Updates
+
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.270 ([#10](https://github.com/autonomouslogic/claude-container/issues/10)) ([98c718c](https://github.com/autonomouslogic/claude-container/commit/98c718c1872f77a15ccabef635599e5498e90c62))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.270 ([#11](https://github.com/autonomouslogic/claude-container/issues/11)) ([ad81802](https://github.com/autonomouslogic/claude-container/commit/ad8180243f8e2a75db227992133826dbbf148783))
+
+
+### Miscellaneous Chores
+
+* Separate Claude Code update group ([0e93761](https://github.com/autonomouslogic/claude-container/commit/0e937617322ed7e3c52829d93d53de2d65746d27))
+* Update specific versions of Claude Code and update install script daily ([14d5e3d](https://github.com/autonomouslogic/claude-container/commit/14d5e3dd31cf1dce606859e5fcc4703981c8de1f))
+
+
+### Build System
+
+* Set Docker labels ([d96292c](https://github.com/autonomouslogic/claude-container/commit/d96292cf07a33317a9cb0f988badf427516716cf))
+
 ## [1.0.4](https://github.com/autonomouslogic/claude-container/compare/1.0.3...1.0.4) (2026-09-08)
 
 
