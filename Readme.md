@@ -9,10 +9,23 @@ This is based on [base-image](https://github.com/autonomouslogic/base-image) whi
 That image is further based on [Containerbase](https://github.com/containerbase), which is based on Ubuntu.
 
 ## Usage
-Copy the `claude` executable file into a path directory accessible by your shell, such as `~/.local/bin`.
-The file is self-contained, so you can rename it, if you want.
+Clone the repo and symlink the executable:
+```bash
+git clone https://github.com/autonomouslogic/claude-container.git
+ln -s claude-container/claude ~/.local/bin/claude
+```
+The run script will rarely change, but if it does, you can just run `git pull` on the repo.
 
-Then simply navigate to the directory you want to run Claude Code in and execute `claude` as normal.
+Alternatively, you can download the script directly:
+```bash
+curl -s https://raw.githubusercontent.com/autonomouslogic/claude-container/refs/heads/main/claude > ~/.local/bin/claude
+chmod a+x ~/.local/bin/claude
+```
+
+The executable file is self-contained.
+Nothing else from the repo is needed.
+
+Once installed, navigate to the directory you want to run Claude Code in and execute `claude` as normal.
 Claude Code will now start inside a Docker container and you will be given a shell as normal.
 
 ## Limitations
