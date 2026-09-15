@@ -12,7 +12,7 @@ That image is further based on [Containerbase](https://github.com/containerbase)
 Clone the repo and symlink the executable:
 ```bash
 git clone https://github.com/autonomouslogic/claude-container.git
-ln -s claude-container/claude ~/.local/bin/claude
+ln -s $(pwd)/claude-container/claude ~/.local/bin/claude
 ```
 The run script will rarely change, but if it does, you can just run `git pull` on the repo.
 
