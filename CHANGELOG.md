@@ -1,5 +1,12 @@
 Claude Container Changelog
 
+## [1.0.12](https://github.com/autonomouslogic/claude-container/compare/1.0.11...1.0.12) (2026-09-24)
+
+
+### Dependency Updates
+
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.281 ([#18](https://github.com/autonomouslogic/claude-container/issues/18)) ([c5d695b](https://github.com/autonomouslogic/claude-container/commit/c5d695b58059e5969781dbd81c85ed4cf8ce2286))
+
 ## [1.0.11](https://github.com/autonomouslogic/claude-container/compare/1.0.10...1.0.11) (2026-09-23)
 
 
