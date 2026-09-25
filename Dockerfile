@@ -12,7 +12,7 @@ COPY ext/install.sh /claude-container/
 ENV PATH="/root/.local/bin:$PATH"
 
 # renovate: datasource=npm depName=@anthropic-ai/claude-code
-ENV CLAUDE_CODE_VERSION=2.1.281
+ENV CLAUDE_CODE_VERSION=2.1.282
 RUN cd /claude-container && ./install.sh ${CLAUDE_CODE_VERSION}
 
 ENTRYPOINT ["claude"]
