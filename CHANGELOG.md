@@ -1,5 +1,46 @@
 Claude Container Changelog
 
+## [1.0.15](https://github.com/autonomouslogic/claude-container/compare/1.0.14...1.0.15) (2026-09-27)
+
+
+### Documentation
+
+* Fixed install command ([bd19602](https://github.com/autonomouslogic/claude-container/commit/bd196021f299e6cf05ccc06ecc30ced22d7fecdf))
+* Other projects update ([cb1398b](https://github.com/autonomouslogic/claude-container/commit/cb1398b876e9b84a05d3a152f4c2b8e45adbac19))
+
+
+### Dependency Updates
+
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.272 ([#12](https://github.com/autonomouslogic/claude-container/issues/12)) ([6e685dc](https://github.com/autonomouslogic/claude-container/commit/6e685dccfcf1d1610170f2f609fd2ae2c63bf923))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.273 ([#13](https://github.com/autonomouslogic/claude-container/issues/13)) ([32c4baf](https://github.com/autonomouslogic/claude-container/commit/32c4baf7018cd3b9fa0934e2bb3b9a6967d018f9))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.274 ([#14](https://github.com/autonomouslogic/claude-container/issues/14)) ([778f655](https://github.com/autonomouslogic/claude-container/commit/778f6554f91b4e1ecbd53a8a0f304ff10c99a561))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.276 ([#15](https://github.com/autonomouslogic/claude-container/issues/15)) ([af41872](https://github.com/autonomouslogic/claude-container/commit/af418723b5558151b50e2d62cbb107f696458ce6))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.278 ([#16](https://github.com/autonomouslogic/claude-container/issues/16)) ([bcb0e3c](https://github.com/autonomouslogic/claude-container/commit/bcb0e3cae4f7048bb70b43d26446cb5f9dad1b3a))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.280 ([#17](https://github.com/autonomouslogic/claude-container/issues/17)) ([1673f42](https://github.com/autonomouslogic/claude-container/commit/1673f42dccab1d116b974a09a923f459b243b206))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.281 ([#18](https://github.com/autonomouslogic/claude-container/issues/18)) ([1c3f1b9](https://github.com/autonomouslogic/claude-container/commit/1c3f1b94c8e3f7921fdd61f3b8e9f1459c89cea1))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.282 ([#19](https://github.com/autonomouslogic/claude-container/issues/19)) ([24879c7](https://github.com/autonomouslogic/claude-container/commit/24879c75ca945a0cb3c458b0ecdd2ee1170882ff))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.283 ([#20](https://github.com/autonomouslogic/claude-container/issues/20)) ([819058b](https://github.com/autonomouslogic/claude-container/commit/819058b742c8c2af418bebfaf9938d46b6412113))
+
+
+### Miscellaneous Chores
+
+* AGENTS.md ([559058d](https://github.com/autonomouslogic/claude-container/commit/559058dd5fea75e5bceffbb78e05c7a539523e85))
+* **release:** 1.0.10 [skip ci] ([d550abb](https://github.com/autonomouslogic/claude-container/commit/d550abb758350ab5175f076dea3df070f558a5d6)), closes [#16](https://github.com/autonomouslogic/claude-container/issues/16)
+* **release:** 1.0.11 [skip ci] ([5915da5](https://github.com/autonomouslogic/claude-container/commit/5915da5d0581300a6abb7a607533165f491f4cce)), closes [#17](https://github.com/autonomouslogic/claude-container/issues/17)
+* **release:** 1.0.12 [skip ci] ([7417374](https://github.com/autonomouslogic/claude-container/commit/7417374e7775a45bbe3f06e8d39e19d7bbb174d9)), closes [#18](https://github.com/autonomouslogic/claude-container/issues/18)
+* **release:** 1.0.13 [skip ci] ([f90ee0c](https://github.com/autonomouslogic/claude-container/commit/f90ee0c9050b2288607031c4e40720a3aeb02787)), closes [#19](https://github.com/autonomouslogic/claude-container/issues/19)
+* **release:** 1.0.14 [skip ci] ([4d42c70](https://github.com/autonomouslogic/claude-container/commit/4d42c7077d3f8ed605eacd7642e6b300ebacefed)), closes [#20](https://github.com/autonomouslogic/claude-container/issues/20)
+* **release:** 1.0.5 [skip ci] ([a87c4eb](https://github.com/autonomouslogic/claude-container/commit/a87c4eb505814e72debd4efdaa9057e717af8ad8)), closes [#10](https://github.com/autonomouslogic/claude-container/issues/10) [#11](https://github.com/autonomouslogic/claude-container/issues/11)
+* **release:** 1.0.6 [skip ci] ([2e298e0](https://github.com/autonomouslogic/claude-container/commit/2e298e0087d46c6bc26161d05bfc0aa93f0a21c5)), closes [#12](https://github.com/autonomouslogic/claude-container/issues/12)
+* **release:** 1.0.7 [skip ci] ([48dea77](https://github.com/autonomouslogic/claude-container/commit/48dea7779f2373beed6585886527f8e8c60f9c23)), closes [#13](https://github.com/autonomouslogic/claude-container/issues/13)
+* **release:** 1.0.8 [skip ci] ([a2d59cc](https://github.com/autonomouslogic/claude-container/commit/a2d59cc8fa3662a4607d58e34b2658f82017b22e)), closes [#14](https://github.com/autonomouslogic/claude-container/issues/14)
+* **release:** 1.0.9 [skip ci] ([6665044](https://github.com/autonomouslogic/claude-container/commit/6665044b2133e57bdca5bffe74355bd2eb332e81)), closes [#15](https://github.com/autonomouslogic/claude-container/issues/15)
+
+
+### Continuous Integration
+
+* Always auto-merge Claude Code ([44a6807](https://github.com/autonomouslogic/claude-container/commit/44a6807d8cd065aeaa9be660a4aeb47b216d986f))
+
 ## [1.0.14](https://github.com/autonomouslogic/claude-container/compare/1.0.13...1.0.14) (2026-09-26)
 
 
