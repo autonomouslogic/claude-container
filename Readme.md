@@ -54,5 +54,9 @@ Various resources used to set this up.
 * https://github.com/anthropics/claude-code/blob/main/.devcontainer/Dockerfile
 
 ## Other Projects
-* [Claudebox](https://github.com/RchGrav/claudebox) - more complex with its own workflow
-* https://github.com/gendosu/claude-code-docker - similar, but Node-specific
+Alternative approaches to running Claude Code in containers.
+
+* [Claudebox](https://github.com/RchGrav/claudebox) - also containerizes Claude Code, but adds its own opinionated workflow with pre-configured language and development profiles rather than being a transparent wrapper
+* [claude-code-docker](https://github.com/gendosu/claude-code-docker) - a Docker image for Claude Code with multi-arch (amd64/arm64) support and Claude Desktop MCP server integration; image-first approach rather than a shell script wrapper
+* [VibePod](https://github.com/VibePod/vibepod-cli) - containerizes multiple AI coding agents (not just Claude) with built-in metrics collection and an analytics dashboard
+* [Herdr](https://herdr.dev/) - runs coding agents in persistent background sessions across machines rather than as interactive foreground processes
