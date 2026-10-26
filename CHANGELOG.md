@@ -1,5 +1,12 @@
 Claude Container Changelog
 
+## [1.0.38](https://github.com/autonomouslogic/claude-container/compare/1.0.37...1.0.38) (2026-10-26)
+
+
+### Bug Fixes
+
+* **deps:** autonomouslogic/base-image:1.5.0 ([abee02e](https://github.com/autonomouslogic/claude-container/commit/abee02ed9dc5cf775f280186f7b62cd8030a863f))
+
 ## [1.0.37](https://github.com/autonomouslogic/claude-container/compare/1.0.36...1.0.37) (2026-10-24)
 
 
