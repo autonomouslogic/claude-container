@@ -1,4 +1,4 @@
-FROM autonomouslogic/base-image:1.5.0
+FROM autonomouslogic/base-image:1.5.1
 
 LABEL maintainer="Kenneth Jørgensen <kenneth@autonomouslogic.com>" \
       name="claude-container" \
