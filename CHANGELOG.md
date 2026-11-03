@@ -1,5 +1,13 @@
 Claude Container Changelog
 
+## [1.0.43](https://github.com/autonomouslogic/claude-container/compare/1.0.42...1.0.43) (2026-11-03)
+
+
+### Dependency Updates
+
+* **deps:** update autonomouslogic/base-image docker tag to v1.5.1 ([#48](https://github.com/autonomouslogic/claude-container/issues/48)) ([5faeccd](https://github.com/autonomouslogic/claude-container/commit/5faeccd4cabe6e689425a6df7584ed5d58d99a79))
+* **deps:** update dependency @anthropic-ai/claude-code to v2.1.317 ([#49](https://github.com/autonomouslogic/claude-container/issues/49)) ([32f8f8b](https://github.com/autonomouslogic/claude-container/commit/32f8f8b140fe3d2107625c2f544d977ee7df6ff2))
+
 ## [1.0.42](https://github.com/autonomouslogic/claude-container/compare/1.0.41...1.0.42) (2026-10-31)
 
 
